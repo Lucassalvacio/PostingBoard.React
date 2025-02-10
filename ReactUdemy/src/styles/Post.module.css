@@ -1,0 +1,43 @@
+.post p{
+    max-width: 100%;
+    text-wrap: wrap;
+    overflow-wrap: break-word;
+    height: fit-content;
+}
+
+.post {
+    background-color: rgb(74, 74, 74);
+    border-radius: 2px;
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media only screen and (min-width: 500px) {
+    .post{
+        width: 16vw;
+        min-width: 200px;
+        padding: 1vw;
+        margin: 1vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .post{
+        width: 40vw;
+        font-size: 3vw;
+        padding: 1.5vw;
+        margin: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .post{
+        font-size: 9px;
+        min-width: 120px;
+        padding: 2vw;
+        margin: 2vw;
+    }
+}

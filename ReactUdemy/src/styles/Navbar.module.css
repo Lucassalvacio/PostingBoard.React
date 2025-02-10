@@ -1,0 +1,36 @@
+.header {
+    margin: 3vw 10%;
+    padding: 1vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    padding: 1.5vh 2vw;
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 3vw;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 450px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+}
+

@@ -1,0 +1,13 @@
+.form{
+    width: 100%;
+}
+
+.form label{ 
+    color: aliceblue;
+    font-weight: bold;
+    width: 100%;
+}
+
+.form textarea{
+    width: 100%;
+}
